@@ -54,72 +54,24 @@
 
 <main>
 
- <section class="section">
- <h1>Fabrication, Smithing &amp; Hybrid Prototyping</h1>
+<section class="section">
+ <h1>Fabrication, Prototyping &amp; Small-Batch Manufacturing</h1>
+ <p class="section-subtitle">This page documents a single, end-to-end fabrication effort: reproducing discontinued motorcycle parts with intentional design modifications, using CAD, custom jigs, rapid prototyping, and aluminum casting.</p>
+ <p class="section-subtitle">The focus is not isolated techniques, but process continuity.</p>
+</section>
+
+<section class="section">
+ <h2>Reverse Engineering &amp; CAD Reconstruction</h2>
  <p class="section-subtitle">
- Material-first work: forge, shop, CAD, and rapid iteration from early smithing to engineered geometry,
- repeatable tooling, and small-batch parts.
+ Rebuilding unavailable parts in CAD to integrate new motifs while preserving functional geometry.
  </p>
 
- <div class="case-intro">
- <div class="prose">
- <p class="lead">
- Before I had access to CNC tools or 3D printers, I learned the basics the old way: heat, force, and iteration.
- </p>
-
- <p>
- I started blacksmithing as a teenager on a simple setup heating stock, moving material with intent,
- and learning what precision means when steel is soft and time is short. That early experience turned into a
- broader fabrication skill set: patterned metals, CAD-driven parts, 3D-printed tooling, sand molds, and casting.
- </p>
-
- <p>
- The common thread on this page is process: design tool test revise. Its the same loop used in R&amp;D and
- field prototyping just with a wider range of materials.
- </p>
+ <div class="prose" style="margin-bottom:1.1rem;">
+  <p>The starting point for this work was a set of original motorcycle parts provided by a friend: an Anderson-style motor peg and a gas cap/cover. Both parts were no longer available, and the goal was not just reproduction, but re-interpretation.</p>
+  <p>I began by measuring the original parts and reconstructing their geometry in CAD, including overall form, mounting interfaces, mating features, and the clearances needed for installation and use.</p>
+  <p>From there, I incorporated new design elements directly into the models instead of treating them as afterthoughts: a lightning bolt motif on the motor peg and an all-seeing eye design on the gas cover. The intent was for the symbols to be structurally integrated, not applied later.</p>
+  <p>At this stage, CAD was doing real work: preserving functional geometry from the originals, resolving draft, thickness, and edge transitions suitable for casting, and allowing design changes without compromising fit.</p>
  </div>
-
- <figure class="hero-figure" style="margin:0;">
- <img
- src="Web_Gal_Box_optimized/Fabrication/smithing_5_buffalo_rivet_forge.jpeg"
- alt="Early blacksmithing setup with forge, anvil, and safety apron"
- loading="lazy"
- />
- <figcaption class="cap">
- Early smithing: learning heat control, deformation, and real-world tolerances before machine tools.
- </figcaption>
- </figure>
- </div>
- </section>
-
- <section class="section">
- <h2>Pattern-Making &amp; Tooling</h2>
- <p class="section-subtitle">
- Modular sand-mold boxes and printed hardware designed for assembly, packing, teardown, and re-use.
- </p>
-
- <div class="gallery-grid">
- <figure>
- <img src="Web_Gal_Box_optimized/Fabrication/SandMoldBox.jpeg"
- alt="Wooden modular sand mold box with finger-jointed corners"
- loading="lazy" />
- <figcaption class="cap">Modular mold boxes: finger joints for alignment and repeatability.</figcaption>
- </figure>
-
- <figure>
- <img src="Web_Gal_Box_optimized/Fabrication/SandMoldBoxHardwarePrint.jpeg"
- alt="3D printed hardware components used with wooden mold boxes"
- loading="lazy" />
- <figcaption class="cap">3D-printed hardware to lock, index, and align the mold tooling.</figcaption>
- </figure>
- </div>
- </section>
-
- <section class="section">
- <h2>CAD Functional 3D Printing</h2>
- <p class="section-subtitle">
- Prototypes and tooling parts printed with fit, support strategy, and post-processing in mind.
- </p>
 
  <div class="gallery-grid">
  <figure>
@@ -136,29 +88,6 @@
  <figcaption class="cap">Revision: refined geometry after print/fit feedback.</figcaption>
  </figure>
 
- <figure>
- <img src="Web_Gal_Box_optimized/Fabrication/PegPrint1.jpeg"
- alt="3D printed prototype with dense support structures"
- loading="lazy" />
- <figcaption class="cap">Functional print: support-heavy geometry oriented for strength and stability.</figcaption>
- </figure>
-
- <figure>
- <img src="Web_Gal_Box_optimized/Fabrication/Peg&CoverSideBySide.jpeg"
- alt="3D printed prototypes and a metal reference part placed side by side for comparison"
- loading="lazy" />
- <figcaption class="cap">Fit verification: printed prototypes compared to metal reference hardware.</figcaption>
- </figure>
- </div>
- </section>
-
- <section class="section">
- <h2>CAD-Driven Parts &amp; Engraving</h2>
- <p class="section-subtitle">
- Seating steps, fastener placement, and engraved surfaces modeled with manufacturing in mind.
- </p>
-
- <div class="gallery-grid">
  <figure>
  <img src="Web_Gal_Box_optimized/Fabrication/GasCoverCAD1.jpeg"
  alt="CAD model of a circular cover plate with perimeter fastener holes and stepped seating rings"
@@ -180,18 +109,110 @@
  <figcaption class="cap">Engraving detail: emblem modeled for machining/engrave toolpaths.</figcaption>
  </figure>
  </div>
+</section>
+
+<section class="section">
+<h2>Pattern-Making &amp; Modular Tooling (Sand Casting)</h2>
+<p class="section-subtitle">
+Modular sand-mold boxes and printed hardware designed for assembly, packing, teardown, and re-use.
+</p>
+
+<div class="prose" style="margin-bottom:1.1rem;">
+ <p>The sand-casting flask shown here was intentionally designed as a reusable, modular tooling system, not a disposable mold box.</p>
+
+ <p>Rather than using a single-use wooden frame, I designed a cope-and-drag flask with finger-jointed wooden sides and 3D-printed ABS alignment hardware that locks the two halves together in a fixed orientation. The printed clips act as alignment guides and retainers, ensuring the mold halves re-register precisely on every assembly. Alignment and repeatability were solved in CAD before anything was cut or printed.</p>
+
+ <p>The flask design incorporates proper draft angles on all vertical surfaces so patterns can be withdrawn cleanly without tearing the sand. Pull direction, clearance, and demolding were resolved upfront. The flask can be disassembled non-destructively after the pour, allowing repeated use without degrading alignment or surface fidelity.</p>
+
+<p>This approach mirrors matchplate and foundry tooling principles: solve registration, draft, and repeatability in the tooling — not during the pour.</p>
+
+ <p>I also designed printed runners and sprue features to control metal flow and venting. Gating was treated as part of the system, not an afterthought. Air evacuation, fill order, and pour stability were considered alongside mold geometry.</p>
+
+ <p>I controlled feedstock quality and melt behavior deliberately. I cast small ingots to verify alloy behavior before committing to finished parts, and I managed crucible handling and pour sequencing to keep the workflow safe and repeatable. The mold preparation and pouring stages were decoupled to reduce time pressure and improve consistency.</p>
+</div>
+
+<div class="gallery-grid">
+<figure>
+<img src="Web_Gal_Box_optimized/Fabrication/SandMoldBox.jpeg"
+alt="Wooden modular sand mold box with finger-jointed corners"
+ loading="lazy" />
+ <figcaption class="cap">Modular mold boxes: finger joints for alignment and repeatability.</figcaption>
+ </figure>
+
+ <figure>
+ <img src="Web_Gal_Box_optimized/Fabrication/SandMoldBoxHardwarePrint.jpeg"
+ alt="3D printed hardware components used with wooden mold boxes"
+ loading="lazy" />
+ <figcaption class="cap">3D-printed hardware to lock, index, and align the mold tooling.</figcaption>
+ </figure>
+ </div>
  </section>
 
  <section class="section">
- <h2>Small-Batch Aluminum Casting</h2>
+ <h2>Rapid Prototyping for Fit &amp; Geometry Validation</h2>
  <p class="section-subtitle">
- Experimental casting using recycled aluminum feedstock and custom tooling focused on melt/pour workflow and repeatable outcomes.
+ Seating steps, fastener placement, and engraved surfaces modeled with manufacturing in mind.
  </p>
+
+ <div class="prose" style="margin-bottom:1.1rem;">
+  <p>Before committing to tooling, I produced 3D-printed prototypes of the redesigned parts.</p>
+  <p>These prints were used to:</p>
+  <ul>
+   <li>Verify overall scale and proportion</li>
+   <li>Check mounting alignment against the motorcycle</li>
+   <li>Evaluate how the added design elements interacted with edges, curves, and load-bearing regions</li>
+  </ul>
+  <p>Printing allowed me to catch issues that are not obvious on a screen — sharp transitions that would be weak in cast aluminum, lettering depth that would not read cleanly, or features that needed more material support.</p>
+ <p>This step was not about appearance. It was about de-risking the casting process by validating geometry early.</p>
+ </div>
 
  <div class="gallery-grid">
  <figure>
- <img src="Web_Gal_Box_optimized/Fabrication/Smelting1.jpeg"
- alt="Outdoor casting setup with aluminum cans used as feedstock"
+ <img src="Web_Gal_Box_optimized/Fabrication/PegPrint1.jpeg"
+ alt="3D printed prototype with dense support structures"
+ loading="lazy" />
+ <figcaption class="cap">Functional print: support-heavy geometry oriented for strength and stability.</figcaption>
+ </figure>
+
+ <figure>
+ <img src="Web_Gal_Box_optimized/Fabrication/Peg&CoverSideBySide.jpeg"
+ alt="3D printed prototypes and a metal reference part placed side by side for comparison"
+ loading="lazy" />
+ <figcaption class="cap">Fit verification: printed prototypes compared to metal reference hardware.</figcaption>
+ </figure>
+ </div>
+</section>
+
+ <section class="section">
+<h2>Small-Batch Aluminum Casting</h2>
+<p class="section-subtitle">
+Experimental casting using recycled aluminum feedstock and custom tooling focused on melt/pour workflow and repeatable outcomes.
+</p>
+
+<div class="prose" style="margin-bottom:1.1rem;">
+ <p>I performed small-batch aluminum casting using recycled material.</p>
+ <p>Because recycled aluminum introduces unknown alloy composition, I cast test ingots first to evaluate:</p>
+ <ul>
+  <li>Melt behavior</li>
+  <li>Surface quality</li>
+  <li>General machinability</li>
+ </ul>
+ <p>Only after validating the material did I proceed to pour the motorcycle components.</p>
+ <p>I paid attention to the full casting workflow:</p>
+ <ul>
+  <li>Melt control and handling</li>
+  <li>Mold preparation</li>
+  <li>Purpose-designed gating and venting</li>
+  <li>Safe, predictable crucible transfer and pour sequence</li>
+ </ul>
+ <p>Reusable tooling made iteration practical. If a casting revealed an issue, I could modify the pattern or gating and pour again without starting over.</p>
+ <p>Unfortunately, I do not have final photos of the finished cast motorcycle parts, but the tooling, patterns, and intermediate results shown here represent the bulk of the engineering work involved.</p>
+</div>
+
+<div class="gallery-grid">
+<figure>
+<img src="Web_Gal_Box_optimized/Fabrication/Smelting1.jpeg"
+alt="Outdoor casting setup with aluminum cans used as feedstock"
  loading="lazy" />
  <figcaption class="cap">Feedstock and melt setup: recycled aluminum used for casting experiments.</figcaption>
  </figure>
@@ -219,35 +240,7 @@
  </div>
  </section>
 
- <section class="section">
- <h2>Patterned Metals &amp; Finish Work</h2>
- <p class="section-subtitle">
- Ring work in patterned/laminated metals forming, symmetry, surface finishing, and comfort edges.
- </p>
-
- <div class="gallery-grid">
- <figure>
- <img src="Web_Gal_Box_optimized/Fabrication/jewelry1.jpeg"
- alt="Braided metal ring shown on a wooden dowel"
- loading="lazy" />
- <figcaption class="cap">Braided band ring: forming and finish work for clean symmetry.</figcaption>
- </figure>
-
- <figure>
- <img src="Web_Gal_Box_optimized/Fabrication/jewelry.jpeg"
- alt="Braided metal ring photographed on a dark surface"
- loading="lazy" />
- <figcaption class="cap">Pattern continuity: consistent weave and polished surfaces.</figcaption>
- </figure>
-
- <figure>
- <img src="Web_Gal_Box_optimized/Fabrication/jewelry3.jpeg"
- alt="Two-tone patterned ring with laminated metal appearance"
- loading="lazy" />
- <figcaption class="cap">Two-tone band: laminated metals shaped and polished for a continuous pattern.</figcaption>
- </figure>
- </div>
- </section>
+ 
 
 </main>
 
@@ -257,4 +250,9 @@
 
 </body>
 </html>
+
+
+
+
+
 

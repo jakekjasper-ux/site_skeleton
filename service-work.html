@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
  <meta charset="UTF-8" />
- <title>Field Service & Troubleshooting | Jake Jasper</title>
+ <title>Field Service &amp; Troubleshooting | Jake Jasper</title>
  <link rel="stylesheet" href="style.css" />
  <meta name="viewport" content="width=device-width, initial-scale=1" />
  <meta name="description" content="Field diagnostics and troubleshooting for wells, pumps, controls, telemetry, and drinking-water systems built to be serviced years after installation." />
@@ -29,159 +29,203 @@
  <p class="section-subtitle">Where installed systems prove themselves — or show their weak points.</p>
 
  <img src="Web_Gal_Box_optimized/service-work/Reservoir_pump_replacement.jpeg"
- alt="Inside a potable-water reservoir during pump replacement (confined space)"
- loading="lazy"
- style="width:100%;max-height:420px;object-fit:cover;border-radius:1.25rem;border:1px solid rgba(148,163,184,0.35);margin:1rem 0 1.25rem;" />
+  alt="Inside a potable-water reservoir during pump replacement (confined space)"
+  loading="lazy"
+  style="width:100%;max-height:420px;object-fit:cover;border-radius:1.25rem;border:1px solid rgba(148,163,184,0.35);margin:1rem 0 1.25rem;" />
 
  <div class="prose">
- <p>I worked in a well pump shop where the same people were responsible for building systems correctly, installing them under real constraints, and servicing them when they aged — across municipal, commercial, and private work.</p>
- <p>Field service is where those decisions come back. Often years later. Often under pressure.</p>
- <p>Much of the service work shown here involves systems we originally installed or maintained as operator of record — reservoir controls, alarm panels, pump logic, and wiring schemes designed to be diagnosed rather than guessed at.</p>
+ <p>The work documented here spans <strong>public water systems</strong>, <strong>UL-508 industrial control panels</strong>, <strong>field electrical work under 03A scope</strong>, and <strong>mixed-use infrastructure</strong>, often performed <strong>years after original installation</strong>. In many cases, systems <strong>did not match drawings, assumptions, or documentation</strong>, reflecting <strong>incremental field modifications</strong>, <strong>deferred maintenance</strong>, or <strong>operator-driven changes</strong> over time.</p>
+ <p>Much of this work occurred on <strong>active, regulated systems</strong> supporting <strong>occupied facilities</strong>, <strong>public water delivery</strong>, or <strong>critical operations</strong>. <strong>Shutdown windows were limited</strong>, <strong>regulatory oversight</strong> was present, and changes had to respect both <strong>electrical licensing limits</strong> and <strong>operator authority</strong>.</p>
+ <p>My role in these environments was <strong>diagnostic first</strong>. Before replacing components or altering configuration, I focused on understanding how the system was <strong>actually behaving under load</strong>: how <strong>control logic</strong>, <strong>field wiring</strong>, <strong>mechanical equipment</strong>, and <strong>operator practices</strong> interacted in real conditions. This included evaluating panel construction and modifications under <strong>UL-508 shop practices</strong>, tracing field wiring and power distribution <strong>within 03A scope</strong>, and coordinating findings with <strong>water system operators</strong> responsible for <strong>regulatory compliance</strong>.</p>
+ <p><strong>Failures were rarely isolated</strong> to a single discipline. <strong>Electrical faults</strong>, <strong>control logic drift</strong>, <strong>mechanical wear</strong>, and <strong>operational workarounds</strong> often compounded each other. Effective correction required recognizing where <strong>responsibility boundaries</strong> lay, identifying which actions were <strong>permissible within scope</strong>, and ensuring changes improved <strong>reliability</strong> without introducing <strong>regulatory or safety risk</strong>.</p>
  </div>
  </section>
 
  <section class="section">
- <h2>Typical Conditions</h2>
+ <h2>Working Conditions</h2>
  <div class="prose">
- <p>Systems that “worked for years” until they didn’t. Controls altered over time by multiple hands. Marginal splices, drifting sensors, or undocumented changes. Sites where downtime required immediate response.</p>
- <p>The objective was not just to restore operation, but to understand why the failure occurred and whether the correction would last.</p>
+  <p>Most service work occurred under constraint:</p>
+  <p>These conditions materially shape how systems must be diagnosed, modified, and returned to service. Every decision had to account for safety, compliance, and downstream operational impact.</p>
+  <ul>
+   <li>Limited shutdown windows</li>
+   <li>Active systems supplying water, power, or both</li>
+   <li>Incomplete or outdated documentation</li>
+   <li>Environmental exposure and tight access</li>
+  <li>Regulatory and operator-of-record oversight</li>
+ </ul>
+ <p>Under those conditions, speed without understanding creates repeat failures. The objective was to stabilize operation, isolate faults, and implement corrections that reduced uncertainty rather than masking symptoms.</p>
+</div>
+
+ <div class="gallery-grid">
+  <figure>
+   <img src="Web_Gal_Box_optimized/service-work/Panel_diagnostic1.jpeg" alt="Live-system troubleshooting under load." loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
+   <figcaption>Live-system troubleshooting under load. Fault isolation performed before component replacement to avoid masking root causes.</figcaption>
+  </figure>
+  <figure>
+   <img src="Web_Gal_Box_optimized/service-work/NewWellVFD.jpeg" alt="VFD and pump controls during service verification" loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
+   <figcaption>Drive and controls verification after service: grounding, labeling, and test-run documented.</figcaption>
+  </figure>
+  <figure>
+   <video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
+    <source src="Web_Gal_Box_optimized/service-work/ControlBoxSwap.MOV" type="video/mp4" />
+   </video>
+   <figcaption>Control box replacement with live verification before close-out.</figcaption>
+  </figure>
+</div>
+</section>
+
+<section class="section">
+<h2>Representative Field Work</h2>
+<p class="section-subtitle">Diagnostics, open panels, pumps, and live systems under load.</p>
+
+ <div class="prose">
+  <p>The work shown includes:</p>
+  <ul>
+   <li>Live electrical and control diagnostics</li>
+   <li>Control panel replacement and in-place modification</li>
+   <li>VFD and pump-control verification after service</li>
+   <li>Probe, sensor, and telemetry fault isolation</li>
+   <li>Solo pump pulls and sets on residential and small-system wells</li>
+   <li>Wiring cleanup and rerouting to restore diagnosability</li>
+ </ul>
+ <p>Solo pump work required controlling the string, maintaining alignment, protecting conductors, and verifying operation before handoff. Clean sequencing and methodical handling were the difference between a stable return to service and avoidable damage.</p>
+</div>
+
+ <div class="gallery-grid">
+  <figure>
+   <video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
+    <source src="Web_Gal_Box_optimized/service-work/SoloPull.MOV" type="video/mp4" />
+   </video>
+   <figcaption>Solo pump pull: controlling the string, protecting conductors, and keeping alignment without a ground crew.</figcaption>
+  </figure>
+  <figure>
+   <video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
+    <source src="Web_Gal_Box_optimized/service-work/SoloSet.MOV" type="video/mp4" />
+   </video>
+   <figcaption>Solo set: maintaining conductor protection and alignment during placement before energizing.</figcaption>
+  </figure>
  </div>
  </section>
 
- <section class="section">
- <h2>Representative Field Work</h2>
- <p class="section-subtitle">Diagnostics, open panels, pumps, and live systems under load.</p>
+<section class="section">
+<h2>Diagnostic Approach</h2>
+<div class="prose">
+  <p>Service work began with verification.</p>
+ <p>Electrical diagnostics were performed live where required, tracing faults through control logic, sensors, power delivery, and field wiring rather than assuming component failure. Mechanical issues were evaluated in terms of how they affected electrical behavior, flow response, pressure stability, or system cycling.</p>
+ <p>Temporary stabilization was used when necessary to keep systems operational while faults were isolated. Permanent corrections were sequenced only after failure modes were understood and downstream impacts considered.</p>
+ <p>This approach applied equally to water systems, controls, and building infrastructure. A recurring pattern was compounded failure: small issues hidden by workarounds, deferred maintenance, or prior repairs that addressed symptoms instead of mechanisms.</p>
+</div>
 
  <div class="gallery-grid">
+  <figure>
+   <img src="Web_Gal_Box_optimized/service-work/panel_diagnostic.jpeg" alt="Panel troubleshooting detail" loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
+   <figcaption>Panel troubleshooting detail retained for later service visits.</figcaption>
+  </figure>
  <figure>
- <img src="Web_Gal_Box_optimized/service-work/Panel_diagnostic1.jpeg" alt="Live-system troubleshooting under load." loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
- <figcaption>Live-system troubleshooting under load. Fault isolation performed before component replacement to avoid masking root causes.</figcaption>
- </figure>
+   <video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
+    <source src="Web_Gal_Box_optimized/service-work/ProbeConnectionCallVID.MOV" type="video/mp4" />
+   </video>
+   <figcaption>Reservoir probe/control verification: sensor behavior confirmed before bringing the system back online.</figcaption>
+  </figure>
  <figure>
- <video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
- <source src="Web_Gal_Box_optimized/service-work/ControlBoxSwap.MOV" />
- </video>
- <figcaption>Control box replacement with live verification. New controls tested under operating conditions prior to close-out.</figcaption>
- </figure>
- <figure>
- <video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
- <source src="Web_Gal_Box_optimized/service-work/SoloPull.MOV" />
- </video>
- <figcaption>Residential well pump pull as a solo operation: keeping the string controlled without a ground crew.</figcaption>
- </figure>
- <figure>
- <video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
- <source src="Web_Gal_Box_optimized/service-work/SoloSet.MOV" />
- </video>
- <figcaption>Solo set on a residential well: maintaining alignment and conductor protection during the return to service.</figcaption>
- </figure>
- <figure>
- <img src="Web_Gal_Box_optimized/service-work/NewWellVFD.jpeg" alt="VFD and pump controls during service verification" loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
- <figcaption>Drive and controls verification after service: grounding, labeling, and test-run documented.</figcaption>
- </figure>
- <figure>
- <img src="Web_Gal_Box_optimized/service-work/panel_diagnostic.jpeg" alt="Panel troubleshooting detail" loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
- <figcaption>Panel troubleshooting detail retained for later service visits.</figcaption>
- </figure>
- <figure>
- <img src="Web_Gal_Box_optimized/service-work/ProbeReplacement.jpeg" alt="Probe replacement components and wiring" loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
- <figcaption>Probe replacement and wiring cleanup to stabilize level telemetry.</figcaption>
+  <img src="Web_Gal_Box_optimized/service-work/ProbeReplacement.jpeg" alt="Probe replacement components and wiring" loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
+  <figcaption>Probe replacement and wiring cleanup to stabilize level telemetry.</figcaption>
  </figure>
  </div>
+ <p>Probe and telemetry issues are included here intentionally. Level and signal faults often present as nuisance alarms, pump cycling problems, or apparent equipment failure. Cleaning up signal paths and verifying sensor behavior frequently resolved issues without replacing major components.</p>
  </section>
 
  <section class="section">
- <h2>PUD &amp; Municipal Work</h2>
- <p class="section-subtitle">Utility-scale lifts, diagnostics, and pump house upgrades.</p>
+ <h2>Utility and Municipal Service</h2>
+ <div class="prose">
+  <p>This page also includes municipal and utility-scale service work, including pump house upgrades, reservoir diagnostics, lift and pump station work, and control system verification under service constraints.</p>
+  <p>Service decisions affected not only the equipment but also operator response, alarm behavior, and regulatory compliance. Routing, labeling, access, and documentation were treated as part of the repair, not afterthoughts.</p>
+ </div>
 
- <div class="gallery-grid">
- <figure>
- <video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
- <source src="Web_Gal_Box_optimized/service-work/StevensPUDPumpPlace1.MOV" />
- </video>
+<div class="gallery-grid">
+<figure>
+<video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
+<source src="Web_Gal_Box_optimized/service-work/StevensPUDPumpPlace1.MOV" type="video/mp4" />
+</video>
  <figcaption>Municipal well pump and motor replacement (Stevens County PUD). Electrical and mechanical coordination completed under service constraints.</figcaption>
  </figure>
- <figure>
- <video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
- <source src="Web_Gal_Box_optimized/service-work/stevenspudpumpplace.mov" />
+<figure>
+<video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
+<source src="Web_Gal_Box_optimized/service-work/stevenspudpumpplace.mov" type="video/mp4" />
+</video>
+<figcaption>Second angle of the PUD lift showing alignment and control under supervision.</figcaption>
+</figure>
+<figure>
+<video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
+<source src="Web_Gal_Box_optimized/service-work/HighschoolPumpTestStart.MOV" type="video/mp4" />
  </video>
- <figcaption>Second angle of the PUD lift showing alignment and control under supervision.</figcaption>
+ <figcaption>Pump test start-up with panel verification and instrumentation checks before returning service.</figcaption>
  </figure>
  <figure>
- <video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
- <source src="Web_Gal_Box_optimized/service-work/ProbeConnectionCallVID.MOV" />
- </video>
- <figcaption>Reservoir pump diagnostics and probe control verification. Sensor behavior confirmed before returning system to operation.</figcaption>
+  <img src="Web_Gal_Box_optimized/service-work/PUDPumpPull.jpeg" alt="Municipal pump pull in progress" loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
+  <figcaption>Municipal pump pull staged for inspection and reset after diagnostics.</figcaption>
  </figure>
- <figure>
- <img src="Web_Gal_Box_optimized/service-work/PUDPumpPull.jpeg" alt="Municipal pump pull in progress" loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
- <figcaption>Municipal pump pull staged for inspection and reset after diagnostics.</figcaption>
- </figure>
- <figure>
- <img src="Web_Gal_Box_optimized/service-work/PostFallsMobleParkPumpHouseUpgrade.jpeg" alt="Pump house upgrade overview" loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
- <figcaption>Pump house upgrade showing routing, labeling, and service access preserved.</figcaption>
- </figure>
- <figure>
- <img src="Web_Gal_Box_optimized/service-work/PostFallsMobleParkPumpHouseUpgrade1.jpeg" alt="Pump house upgrade detail" loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
- <figcaption>Detail of the upgraded pump house showing terminations and protection.</figcaption>
- </figure>
+  <figure>
+   <img src="Web_Gal_Box_optimized/service-work/PostFallsMobleParkPumpHouseUpgrade.jpeg" alt="Pump house upgrade overview" loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
+   <figcaption>Pump house upgrade showing routing, labeling, and service access preserved.</figcaption>
+  </figure>
+  <figure>
+   <img src="Web_Gal_Box_optimized/service-work/PostFallsMobleParkPumpHouseUpgrade1.jpeg" alt="Pump house upgrade detail" loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
+   <figcaption>Detail of the upgraded pump house showing terminations and protection.</figcaption>
+  </figure>
  </div>
  </section>
 
  <section class="section">
- <h2>Confined Space &amp; Verification</h2>
- <p class="section-subtitle">Confined-space coordination, sanitation, and post-repair validation on drinking-water systems.</p>
+ <h2>Confined Space and Verification</h2>
+ <div class="prose">
+  <p>Several projects required confined-space coordination, including reservoir pump verification and vault work. These tasks were performed under defined safety protocols and verified before systems were returned to normal operation.</p>
+  <p>Verification mattered. Systems were observed under load after service to confirm stable behavior, pressure response, and correct control logic before handoff. Assumptions were not accepted as verification.</p>
+ </div>
 
  <div class="gallery-grid">
- <figure>
- <a href="Web_Gal_Box_optimized/service-work/Reservoir_pump_replacement.jpeg" target="_blank" rel="noopener">
- <img src="Web_Gal_Box_optimized/service-work/Reservoir_pump_replacement.jpeg" alt="Confined-space coordination during reservoir pump verification." loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
- </a>
- <figcaption>Confined-space coordination during reservoir pump verification. Pump and controls validated prior to restoring service.</figcaption>
- </figure>
- <figure>
- <a href="Web_Gal_Box_optimized/service-work/Reservoir_pump_replacement1.jpeg" target="_blank" rel="noopener">
- <img src="Web_Gal_Box_optimized/service-work/Reservoir_pump_replacement1.jpeg" alt="Reservoir entry work and equipment replacement" loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
- </a>
- <figcaption>Post-repair system validation. Operational checks performed to confirm stable behavior.</figcaption>
- </figure>
+  <figure>
+   <a href="Web_Gal_Box_optimized/service-work/Reservoir_pump_replacement.jpeg" target="_blank" rel="noopener">
+    <img src="Web_Gal_Box_optimized/service-work/Reservoir_pump_replacement.jpeg" alt="Confined-space coordination during reservoir pump verification." loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
+   </a>
+   <figcaption>Confined-space coordination during reservoir pump verification. Pump and controls validated prior to restoring service.</figcaption>
+  </figure>
+  <figure>
+   <a href="Web_Gal_Box_optimized/service-work/Reservoir_pump_replacement1.jpeg" target="_blank" rel="noopener">
+    <img src="Web_Gal_Box_optimized/service-work/Reservoir_pump_replacement1.jpeg" alt="Reservoir entry work and equipment replacement" loading="lazy" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);" />
+   </a>
+   <figcaption>Post-repair system validation. Operational checks performed to confirm stable behavior.</figcaption>
+  </figure>
  <figure>
  <video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
- <source src="Web_Gal_Box_optimized/service-work/booster_pump_swap1.MOV" />
+ <source src="Web_Gal_Box_optimized/service-work/booster_pump_swap1.MOV" type="video/mp4" />
  </video>
  <figcaption>Booster pump and pressure tank replacement in a crawlspace. Sequence: isolate, remove failed equipment, install, prime, verify.</figcaption>
  </figure>
  <figure>
  <video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
- <source src="Web_Gal_Box_optimized/service-work/booster_pump_swap.mov" />
+ <source src="Web_Gal_Box_optimized/service-work/booster_pump_swap3.MOV" type="video/mp4" />
  </video>
  <figcaption>Continuation of booster pump swap under tight access, keeping conductors and piping clean for potable service.</figcaption>
  </figure>
  <figure>
  <video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
- <source src="Web_Gal_Box_optimized/service-work/booster_pump_swap3.MOV" />
+ <source src="Web_Gal_Box_optimized/service-work/booster_pump_swap4.MOV" type="video/mp4" />
  </video>
- <figcaption>Startup verification for the booster system before closing the crawlspace.</figcaption>
- </figure>
- <figure>
- <video controls preload="metadata" style="width:100%;height:200px;object-fit:cover;border-radius:0.9rem;border:1px solid rgba(148,163,184,0.35);display:block;">
- <source src="Web_Gal_Box_optimized/service-work/booster_pump_swap4.MOV" />
- </video>
- <figcaption>Final checks on pressure response and leaks prior to handoff.</figcaption>
+ <figcaption>Final checks on pressure response and leaks before returning the booster system to service.</figcaption>
  </figure>
  </div>
  </section>
 
  <section class="section">
  <h3>Closing</h3>
- <p>Good field work is not flashy.<br />It is quiet, methodical, and boring — which is exactly how water systems should behave.</p>
+ <p>Good field service is quiet. It restores function, reduces uncertainty, and leaves systems easier to understand than they were before the failure. The work shown here reflects a conservative, methodical approach intended to prevent repeat failures and support operators who will maintain these systems long after the service call ends.</p>
  </section>
 
 </main>
 
 <footer>
-<span>(c) 2025 Jake Jasper. Built as a static portfolio site.</span>
+ <span>(c) 2025 Jake Jasper. Built as a static portfolio site.</span>
 </footer>
 </body>
 </html>
-

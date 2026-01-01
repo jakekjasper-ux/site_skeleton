@@ -1,18 +1,18 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html lang="en">
 <head>
  <meta charset="UTF-8" />
- <title>FIRST Robotics 2011 | Logo Motion | Jake Jasper</title>
+ <title>FIRST Robotics - Systems Engineering Under Constraint | Jake Jasper</title>
  <link rel="stylesheet" href="style.css" />
  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
  <!-- SEO -->
- <meta name="description" content="FIRST Robotics Competition 2011 (Logo Motion): tracked intake and compliant roller handling for inflatable tubes. Mechanism design, iterative prototyping, integration, and pit repair work by Jake Jasper." />
- <meta name="keywords" content="FIRST Robotics 2011, Logo Motion, robot intake, tracked intake, compliant rollers, mechanism design, prototyping, fabrication, Jake Jasper" />
+ <meta name="description" content="Robotics work focused on systems integration, maintainability, and rapid diagnosis under pressure: serviceable mechanisms, exposed wiring, and repair-ready design." />
+ <meta name="keywords" content="robotics, FIRST Robotics, systems integration, serviceability, rapid repair, compliant mechanisms, prototyping, Jake Jasper" />
 
  <!-- Social -->
- <meta property="og:title" content="FIRST Robotics 2011 Â| Logo Motion Â| Jake Jasper" />
- <meta property="og:description" content="Tracked intake + compliant roller handling for squishy game pieces. Real-world iteration under match pressure." />
+ <meta property="og:title" content="FIRST Robotics - Systems Engineering Under Constraint | Jake Jasper" />
+ <meta property="og:description" content="Systems engineering under constraint: integration, serviceability, and repair-ready design for competition robotics." />
  <meta property="og:type" content="website" />
 </head>
 
@@ -33,7 +33,7 @@
 <main>
 
  <section class="section">
- <h2>FIRST Robotics 2011 Logo Motion Robot</h2>
+ <h1>FIRST Robotics &mdash; Systems Engineering Under Constraint</h1>
 
  <figure class="cover-figure" style="margin:1rem 0 1.6rem;">
   <a href="Web_Gal_Box_optimized/first-robotics/FIRST5.jpeg" target="_blank" rel="noopener">
@@ -42,99 +42,125 @@
     loading="lazy"
     style="width:50%;height:auto;border-radius:1.25rem;border:1px solid rgba(148,163,184,0.35);display:block;margin:0 auto;" />
   </a>
-  <figcaption style="margin-top:0.6rem;font-size:0.95rem;color:#475569;font-style:italic;">Competition-ready Logo Motion robot: tracked intake and compliant rollers packaged for fast service.</figcaption>
+  <figcaption style="margin-top:0.6rem;font-size:0.95rem;color:#475569;font-style:italic;">Competition-ready configuration with wiring and mechanisms exposed for rapid fault tracing.</figcaption>
  </figure>
 
- <p class="lead">
- The 2011 FIRST Robotics Competition game, Logo Motion, was a deceptively hard materials-handling problem:
- robots had to capture and place inflatable tubes (triangle, circle, square) onto scoring racks at multiple heights.
- In practice, the real enemy wasn't the rules it was how inconsistent flexible game pieces behave when you
- try to grab them at speed.
- </p>
-
- <div class="prose">
- <h3 style="margin-top:1.4rem;">What the mechanism was solving</h3>
- <p>
- Inflatable tubes are light, squishy, and unpredictable. A rigid roller can bounce them away. A perfect alignment
- assumption fails instantly on a real field. The approach here was to use multiple contact points and compliance 
- mechanisms that forgive imperfect alignment so the robot could reliably pull in, center, and retain the tube
- long enough to transfer it into the lift/manipulator.
- </p>
-
- <h3 style="margin-top:1.4rem;">My role</h3>
- <ul>
- <li>Contributed to mechanism design for tube capture and retention under misalignment and impacts.</li>
- <li>Designed and produced custom roller / intake components sized to COTS shafts, hubs, and mounting patterns.</li>
- <li>Iterated geometry and mounting based on match failures, driver feedback, and fast pit turnaround constraints.</li>
- <li>Supported integration with chain/belt systems and frame packaging constraints.</li>
- <li>Helped with repairs and tuning between matches where serviceability matters as much as performance.</li>
- </ul>
-
- <h3 style="margin-top:1.4rem;">Why this still matters</h3>
- <p>
- This project is early proof of the same habits that show up in my later field work: designing for unreliable inputs,
- tolerancing for human and environmental mess, and building systems that can be repaired fast when things inevitably
- break. The point wasn't building a robot it was learning to make a system behave in the real world.
- </p>
-
- <h3 style="margin-top:1.4rem;">Skills demonstrated</h3>
- <ul>
- <li><strong>Systems thinking under constraints:</strong> packaging, friction, compliance, failure modes.</li>
- <li><strong>Iterative prototyping:</strong> quick revisions based on observed performance, not guesses.</li>
- <li><strong>Integration:</strong> custom parts + COTS components + drivetrains + structure all needing to agree.</li>
- <li><strong>Serviceability:</strong> can we fix it in minutes becomes a design requirement.</li>
- </ul>
- </div>
+ <p class="lead">My work in FIRST Robotics was my introduction to real systems engineering: designing, building, integrating, and maintaining complex machines under hard constraints of time, budget, and reliability.</p>
+ <p>Robots were not evaluated only on performance. They were evaluated on whether they could be understood, repaired, and redeployed quickly after failure. That reality shaped how I approached every design decision.</p>
  </section>
 
  <section class="section">
- <h3>Robot Gallery</h3>
- <p class="section-subtitle">
- Photos from the 2011 build showing the tracked intake / conveyor approach, compliant roller elements,
- and packaging around the lift/manipulator system.
- </p>
-
- <div class="gallery-grid">
- <figure>
- <img
- src="Web_Gal_Box_optimized/first-robotics/FIRST1.jpeg"
- alt="Aluminum frame with tracked intake assembly and yellow compliant roller elements"
- loading="lazy"
- />
+ <h2>Systems Integration, Not Isolated Mechanisms</h2>
+ <p>The robots I worked on were full systems: drivetrain, intake, conveyor, manipulation, wiring, controls, and software all had to coexist within strict size, weight, and time limits.</p>
+ <p>My focus was on integration, not isolated subsystems. That meant:</p>
+ <ul>
+  <li>Packaging mechanisms so they did not interfere with wiring or service access</li>
+ <li>Designing layouts that made motion, power flow, and failure points visually obvious</li>
+ <li>Avoiding unnecessary complexity that would be difficult to diagnose in competition</li>
+ </ul>
+ <p>Designs were judged not by elegance on paper, but by whether they worked reliably in real matches and could be repaired in minutes in the pit.</p>
+ <figure class="cover-figure" style="margin:1rem 0 1.6rem;">
+  <img src="Web_Gal_Box_optimized/first-robotics/FIRST1.jpeg"
+   alt="Aluminum frame with tracked intake assembly and yellow compliant roller elements"
+   loading="lazy"
+   style="width:60%;height:auto;border-radius:1.25rem;border:1px solid rgba(148,163,184,0.35);display:block;margin:0 auto;" />
+  <figcaption style="margin-top:0.6rem;font-size:0.95rem;color:#475569;font-style:italic;">System packaging visible: intake, conveyor, drivetrain, and wiring sharing constrained space.</figcaption>
  </figure>
+ </section>
 
- <figure>
- <img
- src="Web_Gal_Box_optimized/first-robotics/first.jpeg"
- alt="Robot chassis with intake bed and upper deck installed, showing packaged internal components"
- loading="lazy"
- />
+ <section class="section">
+ <h2>Functional 3D Printing in the Drivetrain</h2>
+ <p>One of the most critical components I worked on was a 3D-printed conveyor / track drive gear used in the robot's tracked intake system.</p>
+ <p>This gear was not cosmetic or secondary â€” it directly transmitted motor torque to the tracks. If it failed, the robot could not operate.</p>
+ <p>We did not have an off-the-shelf gear that matched our required dimensions or gear ratio, so I:</p>
+ <ul>
+  <li>Reverse-engineered the existing gear geometry</li>
+  <li>Resized and modified it in CAD to achieve the required speed-torque balance</li>
+  <li>Adapted the hub and mounting features to match our shaft and bearing constraints</li>
+ </ul>
+ <p>Because the gear was printed, we could iterate quickly. Tooth geometry, wall thickness, and hub design were refined based on real load testing and wear. Print orientation and layer direction were chosen intentionally to handle torque and reduce shear failure.</p>
+ <p>That process forced me to treat printed parts as real mechanical components with known limits, not placeholders. It also taught me when a printed part was acceptable for sustained use and when it should be treated as a consumable.</p>
+ <p>This experience fundamentally shaped how I evaluate materials, loads, and failure modes.</p>
+ <figure class="cover-figure" style="margin:1rem 0 1.6rem;">
+  <img src="Web_Gal_Box_optimized/first-robotics/FIRST3.jpeg"
+   alt="Side view of tracked intake conveyor with rollers and guide structure for flexible game pieces"
+   loading="lazy"
+   style="width:60%;height:auto;border-radius:1.25rem;border:1px solid rgba(148,163,184,0.35);display:block;margin:0 auto;" />
+  <figcaption style="margin-top:0.6rem;font-size:0.95rem;color:#475569;font-style:italic;">Tracked intake and conveyor assembly where the printed drive gear lived and iterated under load.</figcaption>
  </figure>
+ </section>
 
- <figure>
- <img
- src="Web_Gal_Box_optimized/first-robotics/FIRST3.jpeg"
- alt="Side view of tracked intake conveyor with rollers and guide structure for flexible game pieces"
- loading="lazy"
- />
+ <section class="section">
+ <h2>Design for Serviceability</h2>
+ <p>Competition conditions made serviceability non-negotiable.</p>
+ <p>I prioritized:</p>
+ <ul>
+  <li>Open, readable mechanical layouts</li>
+  <li>Clear access to fasteners and wear components</li>
+ <li>Mechanisms that could be inspected visually without disassembly</li>
+ </ul>
+ <p>Robots were intentionally left exposed during assembly and competition. This was not unfinished design - it was a deliberate choice to make faults visible and repairs fast.</p>
+ <p>When something broke, the goal was not just to fix it, but to understand why it failed and adjust the design accordingly.</p>
+ <figure class="cover-figure" style="margin:1rem 0 1.6rem;">
+  <img src="Web_Gal_Box_optimized/first-robotics/first.jpeg"
+   alt="Robot chassis with intake bed and upper deck installed, showing packaged internal components"
+   loading="lazy"
+   style="width:60%;height:auto;border-radius:1.25rem;border:1px solid rgba(148,163,184,0.35);display:block;margin:0 auto;" />
+  <figcaption style="margin-top:0.6rem;font-size:0.95rem;color:#475569;font-style:italic;">Service paths and component access kept open so failures could be diagnosed and fixed mid-event.</figcaption>
  </figure>
+ </section>
 
- <figure>
- <img
- src="Web_Gal_Box_optimized/first-robotics/FIRST4.jpeg"
- alt="Completed robot assembly showing chassis, superstructure, and lift packaging"
- loading="lazy"
- />
+ <section class="section">
+ <h2>Modular Wiring and Electrical Clarity</h2>
+ <p>Electrical reliability was treated as a first-order system requirement.</p>
+ <p>I worked toward:</p>
+ <ul>
+  <li>Modular wiring harnesses instead of point-to-point wiring</li>
+  <li>Consistent routing and strain relief</li>
+ <li>Clear labeling and separation of subsystems</li>
+ </ul>
+ <p>Subsystems could be disconnected and removed without disturbing the rest of the robot. This reduced repair time and prevented cascading failures.</p>
+ <p>That mindset - designing wiring as a serviceable system rather than an afterthought - has carried forward into all my later work.</p>
+ <figure class="cover-figure" style="margin:1rem 0 1.6rem;">
+  <img src="Web_Gal_Box_optimized/first-robotics/FIRST5.jpeg"
+   alt="Competition-ready robot with wiring and mechanisms visible inside the frame"
+   loading="lazy"
+   style="width:60%;height:auto;border-radius:1.25rem;border:1px solid rgba(148,163,184,0.35);display:block;margin:0 auto;" />
+  <figcaption style="margin-top:0.6rem;font-size:0.95rem;color:#475569;font-style:italic;">Harnesses labeled and routed for fast disconnects and clear fault tracing during competition.</figcaption>
  </figure>
+ </section>
 
- <figure>
- <img
- src="Web_Gal_Box_optimized/first-robotics/FIRST5.jpeg"
- alt="Competition-ready robot with wiring and mechanisms visible inside the frame"
- loading="lazy"
- />
+ <section class="section">
+ <h2>Practical Tradeoffs and Engineering Judgment</h2>
+ <p>FIRST robotics taught me to balance theoretical performance against reliability and build reality.</p>
+ <p>I made decisions such as:</p>
+ <ul>
+  <li>Choosing simpler mechanisms when complex ones threatened schedule or reliability</li>
+  <li>Designing for known failure and fast replacement instead of over-engineering</li>
+ <li>Accepting material limitations and designing around them instead of ignoring them</li>
+ </ul>
+ <p>These tradeoffs were not academic. They directly affected match outcomes.</p>
+ <p>That environment trained me to make engineering decisions under pressure, with incomplete information, and with real consequences - a skill that translates directly to professional engineering and manufacturing roles.</p>
+ <figure class="cover-figure" style="margin:1rem 0 1.6rem;">
+  <img src="Web_Gal_Box_optimized/first-robotics/FIRST4.jpeg"
+   alt="Completed robot assembly showing chassis, superstructure, and lift packaging"
+   loading="lazy"
+   style="width:60%;height:auto;border-radius:1.25rem;border:1px solid rgba(148,163,184,0.35);display:block;margin:0 auto;" />
+  <figcaption style="margin-top:0.6rem;font-size:0.95rem;color:#475569;font-style:italic;">Final competition configuration reflecting tradeoffs between complexity, reliability, and repair speed.</figcaption>
  </figure>
- </div>
+ </section>
+
+ <section class="section">
+ <h2>Why FIRST Still Matters in My Work</h2>
+ <p>FIRST shaped how I think about systems more than any single later project.</p>
+ <p>It taught me to:</p>
+ <ul>
+  <li>Design for clarity, not cleverness</li>
+  <li>Treat integration and maintenance as design problems</li>
+  <li>Respect constraints as inputs, not obstacles</li>
+  <li>Validate designs through real use, not assumptions</li>
+ </ul>
+ <p>The habits I developed there - modularity, serviceability, iteration, and honest assessment of failure - are the same habits I apply now, whether I am designing fixtures, cast parts, CNC modifications, or industrial interfaces.</p>
  </section>
 
 </main>
@@ -145,4 +171,3 @@
 
 </body>
 </html>
-
